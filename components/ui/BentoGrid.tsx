@@ -7,7 +7,6 @@ import { useState } from "react";
 // import animationData from '@/data/confetti.json'
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
-import { a, div } from "framer-motion/client";
 import SimpleButton from "./SimpleButton";
 
 

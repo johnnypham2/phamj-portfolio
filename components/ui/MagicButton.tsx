@@ -19,7 +19,7 @@ const MagicButton = ({
             {/* Border Animation */}
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
             {/* Inner Button with Shimmer Effect */}
-            <span className="relative inline-flex gap-2 h-full w-full items-center justify-center rounded-full bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] animate-shimmer px-7 text-sm font-medium text-white">
+            <span className={`relative inline-flex gap-2 h-full w-full items-center justify-center rounded-full bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] animate-shimmer px-7 text-sm font-medium text-white ${otherClasses}`}>
                 {position === 'left' && icon}
                 {title}
                 {position === 'right' && icon}
